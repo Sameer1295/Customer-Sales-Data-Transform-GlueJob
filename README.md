@@ -2,7 +2,7 @@
 
 ## Overview
 
-Built a scalable ETL pipeline using AWS Glue to ingest, transform, and analyze customer and sales data stored in Amazon S3. Used AWS Glue Crawlers for metadata generation and visual ETL jobs to identify high-value customers, storing results in a separate S3 bucket for analytics.
+Built a scalable ETL pipeline using AWS Glue to ingest, transform, and analyze customer and sales data stored in Amazon S3. Used Glue Crawlers for metadata extraction, Athena for querying, and visual Glue ETL jobs to identify customers with high-value orders, storing the results in a separate S3 bucket for downstream analytics.
 
 ## Architecture
 
